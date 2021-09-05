@@ -1,0 +1,127 @@
+body {
+  font-family: "Roboto", Arial, sans-serif;
+  padding-top: 5rem;
+}
+.lead {
+  font-weight: 100;
+  text-align: center;
+}
+
+}
+.none {
+  display: none;
+}
+
+/* Input Field CSS */
+.datainput {
+  position: relative;
+  margin: 5px 0 10px;
+}
+.datainput p {
+  font-size: 12px;
+  background: #eee;
+  display: inline-block;
+  padding: 5px 10px 10px 5px;
+  border-radius: 0.5rem;
+}
+.whatsapp-form textarea {
+  min-height: 50px;
+}
+.datainput select {
+  padding: 12px 10px;
+  color: #555;
+  font-size: 14px;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 5px;
+  outline: none;
+  background: #fff;
+}
+.datainput input,
+.datainput textarea {
+  font-size: 15px;
+  padding: 15px 10px;
+  display: block;
+  width: 100%;
+  border: 0px solid black;
+  border-radius: 5px;
+}
+.datainput input:focus,
+.datainput textarea:focus {
+  outline: none;
+}
+.datainput label {
+  color: #999;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  pointer-events: none;
+  left: 10px;
+  top: 18px;
+  transition: 0.2s ease all;
+}
+.datainput input:focus ~ label,
+.datainput input:valid ~ label,
+.datainput textarea:focus ~ label,
+.datainput textarea:valid ~ label {
+  top: -10px;
+  font-size: 14px;
+  color: #21a51f;
+}
+#notif-license span {
+  font-size: 40px;
+}
+#notif-license {
+  display: none;
+  position: fixed;
+}
+
+.section1 {
+  width: 100%;
+  background-color: #0033ff;
+  padding: 20px 20px 5px 20px;
+  border-radius: 15px 15px 0 0;
+  color: white;
+  font-size: 24px;
+}
+
+form.whatsapp-form {
+  width: 100%;
+  background-color: white;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 0 0 15px 15px;
+}
+.whatsapp-form a.send_form {
+  color: #fff;
+  background: #21a51f;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 25px;
+  border-radius: 0.3rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  font-size: 15px;
+}
+#text-info span {
+  display: block;
+  padding: 10px 15px;
+  text-align: center;
+  font-weight: 700;
+  margin: 15px 0;
+  border-radius: 0.5rem;
+}
+#text-info span.yes {
+  background: #c6ffc5;
+  color: #0ea904;
+}
+#text-info span.no {
+  background: #ffc5c5;
+  color: #ce0404;
+}
+.whatsapp-form {
+  width: 100%;
+
+  margin: 0 auto;
+  box-sizing: border-box;
+}
